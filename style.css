@@ -60,7 +60,7 @@ body {
 
 .form-login { 
     width: 400px;
-    height: 360px;
+    height: 340px;
     background: #4e4d4d;
     margin: auto;
     margin-top: 180px;
@@ -76,7 +76,7 @@ body {
     height: 40px;
     margin-bottom: 30px;
     border-bottom: 1px solid;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .controls {
@@ -84,10 +84,10 @@ body {
     border: 1px solid #017bab;
     margin-bottom: 15px;
     padding: 11px 10px;
-
-    background: #393636;
+    background: #252323;
     font-size: 14px;
     font-weight: bold;
+    color: white;
 }
 
 .buttons {
@@ -113,4 +113,12 @@ body {
 
 .form-login a:hover {
     text-decoration: underline;
+}
+
+.vacio {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
